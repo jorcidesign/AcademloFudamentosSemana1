@@ -8,31 +8,31 @@
 */
 
 // Suma 25 + ? === 33
-const suma = 25 + null === 33
+const suma = 25 + 8 === 33
 
 // Resta ? - 12 === 21
-const resta = null - 12 === 21
+const resta = 33 - 12 === 21
 
 // Multiplicación 8 * ? === 64
-const multiplicacion = 8 * null === 64
+const multiplicacion = 8 * 8 === 64
 
 // División ? / 5 === 5
-const division = null / 5 === 5
+const division = 25 / 5 === 5
 
 // Módulo 23 % ? === 2
-const modulo = 23 % null === 2
+const modulo = 23 % 3 === 2
 
 // Exponenciación 3 ** ? === 27
-const exponenciacion = 3 ** null === 27
+const exponenciacion = 3 ** 3 === 27
 
 // Incremento
 let incremento = 1
 
 // Post Incremento: incremento++ === ?
-const postIncremento = incremento++ === null
+const postIncremento = incremento++ === 1
 
 // Pre Incremento: ++incremento === ?
-const preIncremento = ++incremento === null
+const preIncremento = ++incremento === 3
 
 /*
   Ejercicio #2
@@ -41,25 +41,25 @@ const preIncremento = ++incremento === null
 */
 
 // ¿Cuál es el resultado? => 5 + 3 * 2
-const example1 = 5 + 3 * 2 === null
+const example1 = 5 + 3 * 2 === 11
 
 // ¿Cuál es el resultado? => 3 * 2 / 2
-const example2 = 3 * 2 / 2 === null
+const example2 = 3 * 2 / 2 === 3
 
 // ¿Cuál es el resultado? => 3 * (10 - 5) / 2
-const example3 = 3 * (10 - 5) / 2 === null
+const example3 = 3 * (10 - 5) / 2 === 7.5
 
 // ¿Cuál es el resultado? => '1' + 2 + 2
-const example4 = '1' + 2 + 2 === null
+const example4 = '1' + 2 + 2 === '122'
 
 // ¿Cuál es el resultado? => 1 + 2 + '2'
-const example5 = 1 + 2 + '2' === null
+const example5 = 1 + 2 + '2' === '32'
 
 // ¿Cuál es el resultado? => 1 + +'2' + '2'
-const example6 = 1 + +'2' + '2' === null
+const example6 = 1 + +'2' + '2' === '32'
 
 // ¿Cuál es el resultado? => 'b' + 'a' + +'a' + 'a'
-const example7 = 'b' + 'a' + +'a' + 'a' === null
+const example7 = 'b' + 'a' + +'a' + 'a' === 'baNaNa'
 
 /*
   Ejercicio #3
@@ -71,20 +71,20 @@ let x, y
 const z = y = x = 10
 
 // ¿Cuál es el valor de x?
-const valorDeX = x === null
+const valorDeX = x === 10
 
 // ¿Cuál es el valor de y?
-const valorDeY = y === null
+const valorDeY = y === 10
 
 // ¿Cuál es el valor de z?
-const valorDeZ = z === null
+const valorDeZ = z === 10
 
 // Reeplaza los operadores por una asignación compuesta (+=, -=, *=, /=, %=, **=) dependiendo del operador que corresponda.
-x = x + y
-x = x * z
+x += y;
+x *= z;
 
 // ¿Cuál es el valor de x2?
-const valorDeX2 = x === null
+const valorDeX2 = x === 200
 
 // NO TOCAR ESTE CÓDIGO
 module.exports = {
