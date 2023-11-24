@@ -28,3 +28,5 @@ let sumar = (sum1, sum2) => {
 console.log(sumar(3,2)); // las funciones son expresiones que devuelven un valor
 
 
+
+
